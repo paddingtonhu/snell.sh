@@ -1,3 +1,8 @@
+- 端口：12312 可自定义：[1-65535]
+- Obfs：tls 可自定义：[tls/http/off]
+- PSK：随机生成的16位字符
+- 若已安装 Snell，直接输出配置
+
 脚本运行完毕后，会显示 port 以及 psk，按照标准填入 Surge 即可。
 
 ![](https://scomper.me/_image/ssh-wget-snell.png)
@@ -7,21 +12,22 @@
 
 Centos & RedHat 用户
 ```
-wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/ydzydzydz/snell.sh/master/snell.centos-port.sh
+wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/scomper/snell.sh/master/snell.centos-port.sh
 chmod +x snell.sh
 ./snell.sh
 ```
 
+
 Debian & Ubuntu 用户
 ```
-wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/ydzydzydz/snell.sh/master/snell-port.sh
+wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/scomper/snell.sh/master/snell-port.sh
 chmod +x snell.sh
 ./snell.sh
 ```
 
 卸载方法：
 ```
-wget --no-check-certificate -O uninstall-snell.sh https://raw.githubusercontent.com/ydzydzydz/snell.sh/master/uninstall-snell.sh
+wget --no-check-certificate -O uninstall-snell.sh https://raw.githubusercontent.com/scomper/snell.sh/master/uninstall-snell.sh
 chmod +x uninstall-snell.sh
 ./uninstall-snell.sh
 ```
