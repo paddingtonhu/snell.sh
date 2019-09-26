@@ -57,3 +57,4 @@ cat /etc/snell/snell-server.conf
 vi /etc/snell/snell-server.conf
 ```
 
+Forked from：[ydzydzydz/snell.sh](https://github.com/ydzydzydz/snell.sh)
