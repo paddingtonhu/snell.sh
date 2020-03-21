@@ -5,8 +5,6 @@
 
 脚本运行完毕后，会显示 port 以及 psk，按照标准填入 Surge 即可。
 
-![](https://scomper.me/_image/ssh-wget-snell.png)
-
 
 ** 请使用root用户运行 **
 
